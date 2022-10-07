@@ -7,7 +7,7 @@ Shell Project 6: CI/CD Pipeline for house prediction
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
+* A link to a [Trello board](https://trello.com/b/iabbTYwG/ci-cd-flask-azure-web-app) for the project
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
