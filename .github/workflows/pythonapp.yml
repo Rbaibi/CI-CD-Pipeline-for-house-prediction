@@ -9,13 +9,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.5
+    - name: Set up Python 
       uses: actions/setup-python@v1
-    # Using Python 3.5 I get the following error:
-    # Error: Version 3.5 with arch x64 not found
-    # So therefore I switched to python 3.6.15
       with:
-        python-version: 3.7
+        python-version: 3.9
   
     - name: Install dependencies
       run: |
