@@ -15,7 +15,7 @@ jobs:
     # Error: Version 3.5 with arch x64 not found
     # So therefore I switched to python 3.6.15
       with:
-        python-version: 3.9
+        python-version: 3.7
   
     - name: Install dependencies
       run: |
