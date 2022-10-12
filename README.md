@@ -4,10 +4,9 @@
 Shell Project 6: CI/CD Pipeline for house price prediction
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a [Trello board](https://trello.com/b/iabbTYwG/ci-cd-flask-azure-web-app) for the project
-* A link to a [Spreadsheet](https://docs.google.com/spreadsheets/d/1cYg9aeNhqRpSTXk2ArI2On4Emg_dwG5LRVx6bBLDWrE/edit?usp=sharing) that includes the original and final project plan>
+* A link to a [Spreadsheet](https://docs.google.com/spreadsheets/d/1cYg9aeNhqRpSTXk2ArI2On4Emg_dwG5LRVx6bBLDWrE/edit?usp=sharing) that includes the original and final project plan
 
 ## Instructions
 
