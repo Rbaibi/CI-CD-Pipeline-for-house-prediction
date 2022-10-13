@@ -12,7 +12,7 @@ variables:
   azureServiceConnectionId: 'MyServiceConn'
   
   # Web app name
-  webAppName: 'flaskserverlesswebapp2'
+  webAppName: 'flaskserverlesswebapp'
 
   # Environment name
   environmentName: 'flask-ml-service'
