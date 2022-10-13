@@ -47,7 +47,12 @@ The output should look similar to this:
 
 
 * Output of streamed log files from deployed application
-![img](http://url/to/img.png)
+![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/log.png)
+
+
+* Locust test
+![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot7.2%20locust%20test.png)
+![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot7.1%20locust%20test.png)
 
 > 
 
