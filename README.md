@@ -19,12 +19,50 @@ Instructions for running the Python project.
 * Project running on Azure App Service
 ![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot4%20showing%20Azure%20App%20Service.png)
 
+First start by cloning this repository
+
+```console
+foo@bar:~$ git clone https://github.com/Rbaibi/CI-CD-Pipeline-for-house-prediction.git
+```
 
 * Project cloned into Azure Cloud Shell
 ![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot1%20showing%20project%20cloned%20into%20Azure%20Cloud%20Shell.png)
 
+Run the `make all` command in azure bash
+
+```console
+foo@bar:~$ make all
+```
+
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 ![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot2%20showing%20the%20passing%20test.png)
+
+Create the serverless webapp by running the following command
+
+```console
+foo@bar:~$ az webapp up --name flaskserverlesswebapp --resource-group Azuredevops --runtime "PYTHON:3.7"
+```
+
+To get an output of the streamed log files use
+
+```console
+foo@bar:~$ az webapp log tail
+```
+
+* Output of streamed log files from deployed application
+![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/log.png)
+
+
+Test out whether you can make a prediction
+
+```console
+foo@bar:~$ ./make_predict_azure_app.sh 
+```
+
+* Successful prediction from deployed flask app in Azure Cloud Shell. 
+
+The output should look similar to this:
+![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot5%20showing%20a%20successful%20prediction%20in%20Azure%20Cloud%20Shell.png)
 
 
 * Output of a test run
@@ -39,14 +77,6 @@ Instructions for running the Python project.
 ![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot6.1%20showing%20a%20successful%20run%20of%20the%20project%20in%20Azure%20Pipelines.png)
 
 
-* Successful prediction from deployed flask app in Azure Cloud Shell. 
-
-The output should look similar to this:
-![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot5%20showing%20a%20successful%20prediction%20in%20Azure%20Cloud%20Shell.png)
-
-
-* Output of streamed log files from deployed application
-![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/log.png)
 
 
 * Locust test
