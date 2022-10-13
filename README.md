@@ -9,13 +9,12 @@ Shell Project 6: CI/CD Pipeline for house price prediction
 * A link to a [Spreadsheet](https://docs.google.com/spreadsheets/d/1cYg9aeNhqRpSTXk2ArI2On4Emg_dwG5LRVx6bBLDWrE/edit?usp=sharing) that includes the original and final project plan
 
 ## Instructions
-
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+  
+* Architectural Diagram that shows how key parts of the system work
 ![Architectural Diagram ](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Architectural%20Overview.png)
 
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+Instructions for running the Python project.
 
 * Project running on Azure App Service
 ![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot4%20showing%20Azure%20App%20Service.png)
@@ -54,7 +53,7 @@ The output should look similar to this:
 ![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot7.2%20locust%20test.png)
 ![img](https://raw.githubusercontent.com/Rbaibi/CI-CD-Pipeline-for-house-prediction/main/Screenshots/Screenshot7.1%20locust%20test.png)
 
-> 
+
 
 ## Enhancements
 
