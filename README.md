@@ -58,7 +58,11 @@ The output should look similar to this:
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+How to improve the project in the future
+* Collect more data
+* Improve the ML model
+* Create a Graphical User Interface
+
 
 ## Demo 
 
