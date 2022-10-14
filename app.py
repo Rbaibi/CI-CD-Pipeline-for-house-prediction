@@ -21,11 +21,7 @@ def scale(payload):
 @app.route("/")
 
 def home():
-    html = '<h1>Sklearn Prediction Home</h1>\
-    <p>This is a serverless flask webapp</p>\
-    <p>It uses machine learning to predict the prices of houses</p>\
-    <p>Click this link for more information <a href="https://github.com/Rbaibi/CI-CD-Pipeline-for-house-prediction">link</a>.</p>\
-    <img src="https://media.istockphoto.com/vectors/blue-house-outline-vector-id164724113?k=20&m=164724113&s=612x612&w=0&h=GJPOwUmovJ0R2i-3Qd2jcnq5Wmv2p_ZqxJdMHUGBYwA="/>'
+    html = "<h3>Sklearn Prediction Home</h3>"
     return html.format(format)
 
 # TO DO:  Log out the prediction value
